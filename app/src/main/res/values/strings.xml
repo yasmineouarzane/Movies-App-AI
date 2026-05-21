@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MoviesApp_yasmine_Part1</string>
+    <string name="movie_name_placeholder">Movie Name</string>
+    <string name="movie_date_placeholder">Movie Date</string>
+    <string name="ai_listening">Je vous écoute...</string>
+    <string name="ai_analyzing">Analyse en cours...</string>
+    <string name="ai_detected_mood">Émotion détectée : %s</string>
+    <string name="ai_analysis_error">Analyse impossible</string>
+    <string name="ai_user_speech_format">\"%s\"</string>
+    <string name="scanner_movie_poster_detected">Affiche de film détectée...</string>
+    <string name="trending_title">Tendances 🔥</string>
+    <string name="library_title">Votre Bibliothèque</string>
+    <string name="suggestion_ia">Suggestion IA</string>
+    <string name="search_hint">Rechercher un film...</string>
+    <string name="welcome_morning">Bonjour</string>
+    <string name="welcome_evening">Bonsoir</string>
+    <string name="welcome_night">Bonne nuit</string>
+    <string name="location_placeholder">Localisation...</string>
+    <string name="category_all">Tous</string>
+    <string name="category_action">Action</string>
+    <string name="category_scifi">Sci-Fi</string>
+    <string name="category_animation">Animation</string>
+    <string name="ai_assistant_desc">Assistant IA</string>
+    <!-- Login -->
+    <string name="login_title">MoviesApp</string>
+    <string name="login_subtitle">Connectez-vous pour continuer</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="login_button">Se connecter</string>
+    <string name="register_prompt">Nouveau ? Créer un compte</string>
+    <!-- Profile -->
+    <string name="profile_title">Mon Profil</string>
+    <string name="profile_edit">Modifier mes informations</string>
+    <string name="logout_button">Se déconnecter</string>
+    <string name="default_user_name">Utilisateur</string>
+    <string name="default_user_email">email@exemple.com</string>
+    <!-- Movie Details -->
+    <string name="watch_trailer">Regarder le Trailer</string>
+    <string name="synopsis_title">Synopsis</string>
+    <string name="ia_recommendations">Recommandations IA</string>
+    <!-- Register -->
+    <string name="register_title">Créer un compte</string>
+    <string name="full_name_hint">Nom complet</string>
+    <string name="register_button">S\'inscrire</string>
+    <string name="login_prompt">Déjà inscrit ? Se connecter</string>
+    <!-- Favorites -->
+    <string name="favorites_title">Ma Liste</string>
+    <string name="favorites_empty">Votre liste est vide</string>
+    <string name="sync_cloud_desc">Synchroniser avec le Cloud</string>
+    <string name="ai_assistant_title">Assistant Cinéma</string>
+</resources>

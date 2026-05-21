@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Modern Dark Palette -->
+    <color name="bg_dark">#0F0F0F</color>
+    <color name="surface_dark">#1A1A1A</color>
+    <color name="surface_variant">#2A2A2A</color>
+
+    <!-- Brand Colors -->
+    <color name="primaryColor">#E50914</color>
+    <color name="accent_blue">#00D2FF</color>
+    <color name="accent_purple">#9D50BB</color>
+    <color name="gold">#FFD700</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_hint">#666666</color>
+
+    <!-- Chips & State -->
+    <color name="chip_background">#262626</color>
+    <color name="chip_selected">#E50914</color>
+</resources>

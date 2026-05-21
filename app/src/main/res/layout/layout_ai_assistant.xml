@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="32dp"
+    app:cardBackgroundColor="@color/surface_dark"
+    app:strokeWidth="1dp"
+    app:strokeColor="#33FFFFFF"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivAIIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:padding="16dp"
+            android:background="@color/accent_purple"
+            app:shapeAppearanceOverlay="@style/CircleImage"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tvAITitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/ai_assistant_title"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAIStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/ai_listening"
+            android:textColor="@color/accent_blue"
+            android:textSize="16sp" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/aiWaveform"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="32dp"
+            app:indicatorColor="@color/accent_blue"
+            app:trackColor="@color/surface_variant"
+            app:trackCornerRadius="4dp"
+            android:indeterminate="true" />
+
+        <TextView
+            android:id="@+id/tvUserSpeech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/text_secondary"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
